@@ -8,6 +8,8 @@ services:
         WORKDIR: /project
     volumes:
       - ..:/project
+    ports:
+      - "8976:8976"
     image: cloudflare_workerd_test-image
     container_name: cloudflare_workerd_test-container
     tty: true
