@@ -1,10 +1,10 @@
 {
-    "name": "TypeScript Repository Simple",
+    "name": "Cloudflare Workerd Test",
     // Use docker-compose.extend.yml to run a command that keeps the container running.
     "dockerComposeFile": [
         "./compose.yaml"
     ],
-    "service": "typescript_repository_simple",
+    "service": "cloudflare_workerd_test",
     "workspaceFolder": "/project",
     "shutdownAction": "stopCompose",
     // Comment out the next line to run as root instead. Linux users,

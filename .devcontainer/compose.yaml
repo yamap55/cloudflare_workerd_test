@@ -1,6 +1,6 @@
 version: "3"
 services:
-  typescript_repository_simple:
+  cloudflare_workerd_test:
     build:
       context: ..
       dockerfile: .devcontainer/Dockerfile
@@ -8,7 +8,7 @@ services:
         WORKDIR: /project
     volumes:
       - ..:/project
-    image: typescript_repository_simple-image
-    container_name: typescript_repository_simple-container
+    image: cloudflare_workerd_test-image
+    container_name: cloudflare_workerd_test-container
     tty: true
     env_file: ../.env # shellスクリプト内でも環境変数として使用するため
