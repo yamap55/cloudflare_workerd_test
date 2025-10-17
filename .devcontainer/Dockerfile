@@ -1,4 +1,4 @@
-FROM node:24-bookworm
+FROM node:25-bookworm
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ=Asia/Tokyo
